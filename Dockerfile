@@ -14,5 +14,5 @@ CMD ["npm", "run", "build"]
 
 #run phase
 FROM nginx
-
+EXPOSE 80
 COPY --from=0 /home/node/app/build /usr/share/nginx/html
