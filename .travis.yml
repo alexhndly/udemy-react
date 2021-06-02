@@ -13,9 +13,9 @@ deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
   app : "udemy-react"
-  env: "Udemyreact-env"
+  env: "udemyreact-env"
   bucket_name: "elasticbeanstalk-us-east-1-201401184069"
-  bucket_path: "udemy-react"
+  bucket_path: "docker"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
